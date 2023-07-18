@@ -1,11 +1,14 @@
 .button {
-  padding: 0.625rem;
+  padding: 0.3125rem 0.625rem;
   color: white;
+  border: none;
   cursor: pointer;
   &.button-success {
     background-color: green;
   }
-
+  &.button-warning {
+    background-color: orange;
+  }
   &.button-info {
     background-color: blue;
   }
