@@ -1,0 +1,15 @@
+.button {
+  padding: 0.625rem;
+  color: white;
+  cursor: pointer;
+  &.button-success {
+    background-color: green;
+  }
+
+  &.button-info {
+    background-color: blue;
+  }
+}
+.button + .button {
+  margin-left: 0.625rem;
+}
